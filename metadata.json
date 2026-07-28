@@ -1,0 +1,6 @@
+{
+  "name": "Trusevo",
+  "description": "Cinematic premium hero section for Trusevo with a fullscreen looping background video, glassmorphic navigation, and elegant display typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
