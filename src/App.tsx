@@ -381,7 +381,7 @@ export default function App() {
                   className="text-lg md:text-xl text-white hover:text-[#FFB9FA] transition-colors flex items-center space-x-2"
                 >
                   <Mail size={16} className="text-[#FFB9FA]" />
-                  <span>hello@trusevostudio.com</span>
+                  <span>hello@trusevoru.com</span>
                 </a>
               </div>
 
