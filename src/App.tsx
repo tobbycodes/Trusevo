@@ -397,7 +397,11 @@ export default function App() {
               </div>
             </div>
 
-           
+            {/* Copyright */}
+            <div className="pt-10 text-xs text-gray-600 font-body">
+              <span>&copy; {new Date().getFullYear()} Trusevo Studio. All rights reserved.</span>
+            </div>
+          </div>
 
           {/* Right Column: Dynamic collaboration representation */}
           <div className="space-y-8 text-left w-full">
@@ -435,11 +439,6 @@ export default function App() {
                 X
               </a>
             </div>
-             {/* Copyright */}
-            <div className="pt-10 text-xs text-gray-600 font-body">
-              <span>&copy; {new Date().getFullYear()} Trusevo Studio. All rights reserved.</span>
-            </div>
-          </div>
           </div>
 
         </div>
