@@ -387,7 +387,7 @@ export default function App() {
               <div>
                 <span className="text-xs uppercase tracking-widest text-gray-500 font-bold block mb-2">Get in touch</span>
                 <a 
-                  href="mailto:hello@trusevostudio.com" 
+                  href="mailto:hello@trusevo.com<" 
                   className="text-lg md:text-xl text-white hover:text-[#FFB9FA] transition-colors flex items-center space-x-2"
                 >
                   <Mail size={16} className="text-[#FFB9FA]" />
