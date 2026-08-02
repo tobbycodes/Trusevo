@@ -1,3 +1,13 @@
+declare module 'react/jsx-runtime';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
+
 import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X, ArrowUpRight, Shield, Sparkles, CheckCircle, Smartphone, Laptop, MessageSquare, Mail, Phone, ExternalLink } from 'lucide-react';
 import ProjectBriefModal from './components/ProjectBriefModal';
@@ -212,7 +222,7 @@ export default function App() {
           <p 
             className="text-[#D1D5DB] text-sm sm:text-base max-w-xl mt-10 leading-relaxed font-light animate-fade-rise-delay font-body"
           >
-            We design bespoke websites for premium business owners in the US, UK, Canada, UAE, and Europe. We eliminate sales friction, establish instant market authority, and make choosing your business effortless.
+            We design websites that build trust, attract enquiries, and help customers choose your business with confidence.
           </p>
 
           <div className="animate-fade-rise-delay-2 mt-10">
@@ -381,7 +391,7 @@ export default function App() {
                   className="text-lg md:text-xl text-white hover:text-[#FFB9FA] transition-colors flex items-center space-x-2"
                 >
                   <Mail size={16} className="text-[#FFB9FA]" />
-                  <span>hello@trusevoru.com</span>
+                  <span>hello@trusevo.com</span>
                 </a>
               </div>
 
