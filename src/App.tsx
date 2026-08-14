@@ -402,7 +402,7 @@ export default function App() {
                   className="text-lg md:text-xl text-white hover:text-[#FFB9FA] transition-colors flex items-center space-x-2"
                 >
                   <Phone size={16} className="text-[#FFB9FA]" />
-                  <span>+1 (267) 702-9634</span>
+                  <span>+1 (267) 702-9634 Here is my new number</span>
                 </a>
               </div>
             </div>
