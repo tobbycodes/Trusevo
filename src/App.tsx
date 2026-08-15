@@ -433,7 +433,7 @@ export default function App() {
             {/* Social Buttons Bottom-Right aligned with reference style */}
             <div className="flex justify-end space-x-3 font-body">
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/trusevo_studio/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="border border-white/20 hover:border-white/50 px-5 py-2 text-xs uppercase tracking-wider text-white hover:text-[#FFB9FA] transition-all rounded"
