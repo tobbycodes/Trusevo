@@ -3,9 +3,9 @@
 @theme {
   --font-display: "Instrument Serif", serif;
   --font-body: "Inter", sans-serif;
-  --color-brand-bg: #200E06;
-  --color-brand-accent: #FFB9FA;
-  --color-brand-muted: #D1D5DB;
+  --color-brand-bg: #4D1E4A;
+  --color-brand-accent: #4D1E4A;
+  --color-brand-muted: #FCF6F6;
 }
 
 @layer base {
@@ -15,8 +15,8 @@
   }
 
   body {
-    background-color: #200E06;
-    color: #FFFFFF;
+    background-color: #4D1E4A;
+    color: #FCF6F6;
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

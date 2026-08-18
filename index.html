@@ -7,12 +7,13 @@
     
     <title>Trusevo | Creative Web Design & Development Studio</title>
 
-   <meta 
-    name="description" 
-    content="Trusevo Studio designs and develops modern websites that build trust, attract enquiries, and help businesses grow online."
-   >
+    <!-- meta description -->
+    <meta 
+      name="description" 
+      content="Trusevo Studio designs and develops modern websites that build trust, attract enquiries, and help businesses grow online."
+    >
 
-   <!-- URL Link -->
+   <!-- Homepage URL Link(canonical URL) -->
     <link rel="canonical" href="https://trusevo.com/">
 
     <!-- Open Graph -->
@@ -38,7 +39,7 @@
  
     
 
-    <!-- Google Search -->
+    <!-- WebSite schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -48,6 +49,22 @@
         "url": "https://trusevo.com/"
       }
     </script>
+
+    <!-- Organization schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Trusevo Studio",
+        "url": "https://trusevo.com/",
+        "logo": "https://trusevo.com/path-to-your-logo.png",
+        "description": "Trusevo Studio is a web design and development studio creating modern, user-focused websites that build trust, attract enquiries, and help businesses grow online.",
+        "sameAs": [
+          "https://www.instagram.com/trusevo_studio/",
+          "https://web.facebook.com/profile.php?id=61592841973424L"
+        ]
+      }
+    </script> 
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
