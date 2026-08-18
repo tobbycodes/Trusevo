@@ -62,7 +62,7 @@ export default function WorkGrid() {
       id: 5,
       title: "SEO & AUTHORITY SCALING",
       tagline: "Sustaining dominant organic presence globally.",
-      description: "We deploy comprehensive schema tags and strategic semantic metadata structured to capture high-value organic search demand in the US, UK, Canada, UAE, and Western Europe.",
+      description: "We deploy comprehensive schema tags and strategic semantic metadata structured to capture high-value organic search demand. This ensures your business ranks for the most relevant, high-intent keywords in your industry.",
       deliverables: ["Semantic Schema Injection", "Global Keyword Strategy", "Technical Speed Audits"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
       icon: Search,
