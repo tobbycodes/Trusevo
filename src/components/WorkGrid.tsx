@@ -106,7 +106,7 @@ export default function WorkGrid() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 pb-8 border-b border-[#200E06]/10">
           <div className="space-y-3 max-w-2xl text-left">
             <span className="text-[10px] font-bold tracking-[0.25em] text-[#321323]/60 uppercase font-body block">
-              Our Curated Deliverables
+              Our Curated Deliverables. Trusevo Studio is a web design and development studio creating modern digital experiences that help businesses communicate their value, build trust and turn visitors into customers.
             </span>
             <h2 className="text-4xl md:text-5xl lg:text-6xl text-[#200E06] font-normal leading-[1.1]" style={{ fontFamily: "'Instrument Serif', serif" }}>
               Bespoke Services Designed to Convert
